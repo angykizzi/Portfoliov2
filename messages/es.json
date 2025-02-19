@@ -1,0 +1,19 @@
+{
+  "NavBar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "service": "Servicios",
+    "project": "Proyectos",
+    "contact": "Contacto"
+  },
+    "Home": {
+      "title": "Soy <name>Angely</name>, Frontend Developer",
+      "contact": "va a la página sobre",
+      "helloBubble": "Hola",
+      "portfolio": "Portafolio",
+      "hireMe": "Contrátame",
+      "yearsExperience": "3 Años",
+      "experience": "Experiencia",
+      "recommendation": "El desarrollo frontend de Angely hizo nuestro sitio web rápido, moderno y fluido. ¡Altamente recomendada!"
+    }
+  }

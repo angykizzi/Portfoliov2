@@ -1,0 +1,19 @@
+{
+  "NavBar": {
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "project": "Project",
+    "contact": "Contact"
+  },
+    "Home": {
+      "title": "I'm <name>Angely</name>, Frontend Developer",
+      "contact": "Go to the about page",
+      "helloBubble": "Hello",
+      "portfolio": "Portfolio",
+      "hireMe": "Hire me",
+      "yearsExperience": "3 Years",
+      "experience": "Experience",
+      "recommendation": "Angely's frontend development made our website fast, modern, and seamless. Highly recommended!"
+    }
+  }
