@@ -21,7 +21,7 @@ export default function About() {
   return (
     <section
       id="service"
-      className="pt-12 flex flex-wrap justify-center gap-6 px-4 md:px-10 bg-gray-200 bg-cover bg-center rounded-[50px]"
+      className="pt-12 h-auto flex flex-wrap justify-center items-center gap-6 px-4 md:px-10 bg-gray-200 bg-cover bg-center rounded-[50px]"
       style={{ backgroundImage: "url('/Frame.png')" }}
     >
       <div className="w-full flex flex-col lg:flex-row px-2 lg:px-14 pb-4 lg:pb-8">
