@@ -20,7 +20,7 @@ export default function HeroCenter({ title }: HeroCenterProps) {
         )}
       </h1>
       <div className="relative mt-[-50px] md:mt-[-150px] z-2">
-        <Image src="/foto.png" alt="Picture of the author" width={600} height={600} className="w-full" />
+        <Image src="/foto.png" alt="Picture of the author" width={600} height={600} className="w-[600px]:" />
         <div className="lg:flex hidden absolute left-[30%] sm:left-[35%] md:left-[17%] bottom-[20px] sm:bottom-[40px] z-3">
           <PortfolioButton />
         </div>
