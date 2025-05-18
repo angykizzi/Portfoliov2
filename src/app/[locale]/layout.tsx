@@ -6,10 +6,15 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import Navbar from "@/app/[locale]/components/layout/NavBar";
 import './globals.css'
-import { Urbanist } from 'next/font/google'
+import { Urbanist, ABeeZee } from 'next/font/google'
 
 const urbanist = Urbanist({
   subsets: ['latin'],
+})
+
+const abeezee = ABeeZee({
+  subsets: ['latin'],
+  weight: '400',
 })
 
 export default async function LocaleLayout({

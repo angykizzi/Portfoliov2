@@ -13,20 +13,36 @@ export default function ServiceModal({ title, description, open, setOpen }: Serv
     return (
         <Dialog.Root open={open} onOpenChange={setOpen}>
             <Dialog.Portal>
-                <Dialog.Overlay className="fixed inset-0 bg-black bg-opacity-50 z-50" />
-                <Dialog.Content className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black p-6 rounded-lg shadow-lg w-80 z-50">
-                    {/* Cerrar Modal */}
-                    <div className="flex justify-between items-center">
-                        <Dialog.Title className="text-xl font-semibold">{title}</Dialog.Title>
+                <Dialog.Overlay className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 data-[state=open]:animate-overlayShow" />
+                <Dialog.Content className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-md bg-white dark:bg-gray-800 p-6 rounded-xl shadow-2xl z-50 data-[state=open]:animate-contentShow focus:outline-none border border-gray-200 dark:border-gray-700">
+                    {/* Header */}
+                    <div className="flex justify-between items-center mb-4">
+                        <Dialog.Title className="text-2xl font-bold text-gray-900 dark:text-white">
+                            {title}
+                        </Dialog.Title>
                         <Dialog.Close asChild>
-                            <button className="text-gray-600 hover:text-black">
+                            <button
+                                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-secundary"
+                                aria-label="Close"
+                            >
                                 <X size={24} />
                             </button>
                         </Dialog.Close>
                     </div>
 
-                    {/* Contenido */}
-                    <Dialog.Description className="mt-4">{description}</Dialog.Description>
+                    {/* Content */}
+                    <Dialog.Description className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                        {description}
+                    </Dialog.Description>
+
+                    {/* Footer */}
+                    <div className="mt-6 flex justify-end">
+                        <Dialog.Close asChild>
+                            <button className="px-4 py-2 bg-secundary hover:bg-pink-400 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+                                Ok
+                            </button>
+                        </Dialog.Close>
+                    </div>
                 </Dialog.Content>
             </Dialog.Portal>
         </Dialog.Root>

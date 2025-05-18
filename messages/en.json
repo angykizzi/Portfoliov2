@@ -15,5 +15,35 @@
       "yearsExperience": "3 Years",
       "experience": "Experience",
       "recommendation": "Angely's frontend development made our website fast, modern, and seamless. Highly recommended!"
+    },
+    "Services": {
+      "title": "My services",
+      "description": "I build fast, modern, and adaptable digital experiences. From responsive designs to dynamic React and TypeScript applications, I craft tailored solutions that blend aesthetics, functionality, and performance.",
+      "cardServices": {
+        "webDesign": {
+          "title": "Responsive web design",
+          "description": "I create websites that adapt to any device, ensuring an optimal user experience."
+        },
+        "uiUxDesign": {
+          "title": "Modern UI/UX interfaces",
+          "description": "I design attractive and functional interfaces using technologies such as React, Tailwind and Material UI."
+        },
+        "apiIntegration": {
+          "title": "API Integration",
+          "description": "I connect web applications to external APIs to improve their functionality and efficiency."
+        },
+        "spaApplications": {
+          "title": "SPA applications",
+          "description": "I develop single-page applications with Next.js and React, delivering fluid and dynamic experiences."
+        },
+        "reusableComponents": {
+          "title": "Reusable components",
+          "description": "I build modular and reusable components that optimize code scalability and maintainability."
+        },
+        "developmentTypescript": {
+          "title": "TypeScript development",
+          "description": "I implement TypeScript to improve code security and ensure better structure in projects."
+        }
+      }
     }
   }
